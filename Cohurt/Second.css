@@ -1,0 +1,23 @@
+/* html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.page{
+    height:100%;
+    width:100%;
+    background: #d3abab;
+
+}
+.page:nth-child(2){
+    background:#e76f6f;
+}
+.page:nth-child(3){
+    background:#000;
+}
+.page:nth-child(4){
+    background:#36c3d9;
+} */
+
+/* ----------------------------------------------------------------------------------------------------- */
+

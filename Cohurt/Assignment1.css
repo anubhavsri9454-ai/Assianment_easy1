@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+    /* height: 100%;
+    width: 100%; */
+    background: rgb(215, 207, 207);
+}
+.container{
+    width: 90%;
+    height: 90vh;
+    margin:30px auto;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+
+}
+.left{
+    width: 50%;
+    background: #f4c430;
+    padding: 60px;
+}
+.logo{
+    width: 130px;
+}
+.tag{
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+h1{
+    font-size: 90px;
+    margin: 20px 0;
+}
+.info{
+    width: 80px;
+    /* line-height: 1.8; */
+
+}
+.count{
+    margin-top:40px;
+    font-size:22px;
+    font-weight:bold;
+}
+.right{
+    width: 50%;
+    position: relative;
+    background: #fff8dc;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.pikachu{
+    position: absolute;
+    width: 500px;
+    top: 100px;
+    right: 50%;
+    transform: translateX(-50);
+}
+.dots{
+    position:absolute;
+    right:30px;
+    top:50%;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+.dots span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#d4a017;
+}
+.pokeball{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    opacity: 0.15;
+}
+.pokeball img{
+    width: 180px;
+}
+.left{
+    position: relative;
+}

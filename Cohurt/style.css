@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Horror;
+    src: url(./Storm\ Gust.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: rgb(181, 181, 208);
+    background-color: rgb(68, 17, 249);
+    font-size: 39px;
+}
+h2{
+    font-size: 90px;
+    color: rgb(199, 24, 24);
+    background-color: rgb(14, 14, 15);
+    font-family: Horror;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(orange,white,blue);
+    background-image: url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg);
+    background-size: cover;
+}
+#pd{
+    color: bisque;
+    background: #933030;
+}
+#BOX{
+    margin-top: 5px;
+    background: #c41f1f;
+    margin-left: 250px;
+    border: solid 10px rgb(88, 81, 68);
+    border-radius: 5px;
+    
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    font-family: Horror;
+    font-size: 30px;
+}
+button{
+    color: aliceblue;
+    background: #811818;
+    margin-top: 150px;
+    margin-left: 32%;
+    padding-left: 7px;
+    size: 80px;
+    transition: all ease 0.4s;
+
+}
+button:hover{
+    background-color: rgb(35, 232, 213);
+    color: rgb(19, 20, 18);
+
+}
+#box2{
+background: #902c2c;
+margin: 0%;
+padding: 0%;
+transform: rotate(50deg);
+position:absolute;
+left: 50%;
+}
+#parent{
+    margin: 100%;
+    padding: 100%;
+    height: 200px;
+    width: 200px;
+    background: #7122d2;
+    transform: relative;
+}
+#child{
+    margin: 50%;
+    padding: 20%;
+    background: #cfef45;
+    transform: default;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background: #77d4df;
+}
+.page:nth-child(2){
+    background: #931dd8;
+}
+.page:nth-child(3){
+    background: #eb345f;
+}
+.page:nth-child(4){
+    background: #5c257b;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica 'Courier New', Courier, monospace;
+    /* color: black; */
+    font-size: 30px;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    
+}
+img{
+    height: 250px;
+    position: absolute;
+    animation-name: Doremon;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    /* animation-iteration-count: ; */
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0,1.28,.83,.67);
+}
+img:hover{
+    animation-play-state: paused;
+}
+@keyframes Doremon {
+    from{
+        left: 0;
+        top: 0;
+        rotate: 0;
+    }
+    to{
+        left: 60%;
+        top: 0%;
+        rotate: 360deg;
+    }
+     /* 0%{
+        left: 0;
+        top: 0;
+     }
+     25%{
+        left: 75%;
+        top: 0;
+     }
+     50%{
+        left: 75%;
+        top: 50%;
+
+     }
+     75%{
+        left: 0;
+        top: 50%;
+     }
+     100%{
+        left: 0;
+        top: 0;
+     } */
+}
