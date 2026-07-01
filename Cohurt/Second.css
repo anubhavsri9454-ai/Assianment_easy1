@@ -21,3 +21,43 @@ body{
 
 /* ----------------------------------------------------------------------------------------------------- */
 
+@font-face {
+    font-family: Horror;
+    src: url(./Storm\ Gust.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+h1{
+    color: rgb(221, 24, 24);
+    font-family: horror;
+    font-size: 250px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+p{
+    color: rgb(221, 24, 24);
+    font-family: horror;
+    font-size: 50px;
+    margin-left: 500px;
+    
+}
+img{
+    size: 300px;
+    border-radius: 50%;
+    margin-left: 1000px;
+}
